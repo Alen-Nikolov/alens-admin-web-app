@@ -1,0 +1,9 @@
+.App {
+    height: 100vh;
+    background: #ffffff;
+}
+
+.App .container {
+    display: flex;
+    height: calc(100vh - 70px);
+}
