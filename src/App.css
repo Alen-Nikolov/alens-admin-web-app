@@ -3,7 +3,8 @@
     background: #ffffff;
 }
 
-.App .container {
+.App .full-container {
     display: flex;
-    height: calc(100vh - 70px);
+    height: 100vh;
+    overflow-y: scroll;
 }

@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = (props) => {
     return (
-        <div className="Header">
+        <div className="Header sticky-top">
            Admin
         </div>
     );

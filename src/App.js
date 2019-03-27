@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <div className="container">
+        <div className="full-container">
             <Sidebar/>
             <Switch>
                 <Route exact path="/" component={Weather}/>
